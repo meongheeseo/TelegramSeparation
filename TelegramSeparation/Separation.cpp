@@ -354,8 +354,12 @@ int DisplayBits(char *msg, void *b, int blen, char *ret_msg)
 	memset( &cp, NULL, sizeof( cp ) );
 
 	cb = (char*)b;
-	sp = sprintf(sz, "%s = ", msg); 
+	sp = sprintf(sz, "%s = \n", msg);
+	strcat(ret_msg, sz);
+
 	np = sp;
+	for(j = 0; j < np; j++) sz[j] = ' ';				// Allinement text.
+	sp = np;
 	slen = sp;
 	bytes = (blen+7)/8;          // 1Bit老 版快档 1byte肺 贸府..
 	k = bytes*8;

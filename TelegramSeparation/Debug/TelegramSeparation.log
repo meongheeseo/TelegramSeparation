@@ -1,4 +1,4 @@
-﻿빌드 시작: 2016-08-19 오후 5:46:28
+﻿빌드 시작: 2016-08-23 오후 7:33:48
      1>2 노드의 "C:\Users\john\Desktop\mhSeo\Projects\TelegramSeparation\TelegramSeparation\TelegramSeparation.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\TelegramSeparation.unsuccessfulbuild"을(를) 만들고 있습니다.
@@ -7,15 +7,17 @@
          Separation.cpp
      1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
-     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(358): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
+     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
-     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(389): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(393): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
-     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(390): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(394): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
-     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(489): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(493): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
-     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(492): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+     1>c:\users\john\desktop\mhseo\projects\telegramseparation\telegramseparation\separation.cpp(496): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
        ManifestResourceCompile:
          C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TelegramSeparation.dll.embed.manifest.res" Debug\TelegramSeparation_manifest.rc 
        Link:
@@ -37,4 +39,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:01.99
+경과 시간: 00:00:02.67
